@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Tweets</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tweets Page</title>
 </head>
 <body>
-  <h1>My Tweets</h1>
-  
-  <p>Welcome to my tweets page! Here is a recent tweet I found interesting:</p>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+    </header>
+    <main>
+        <article>
+            <h1>My Tweets</h1>
+            <p>This page features an embedded tweet as an example of external content.</p>
 
-  <!-- Embedded tweet -->
-  <blockquote class="twitter-tweet">
-    <p lang="en" dir="ltr">Learning HTML is fun! #coding #webdev</p>&mdash; Developer Fun (@DevFunTweets) 
-    <a href="https://twitter.com/DevFunTweets/status/1234567890123456789">March 3, 2024</a>
-  </blockquote>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just a quick example tweet to test embedding functionality! <a href="https://twitter.com/hashtag/webdev?src=hash&amp;ref_src=twsrc%5Etfw">#webdev</a> <a href="https://twitter.com/hashtag/html?src=hash&amp;ref_src=twsrc%5Etfw">#html</a></p>&mdash; X Dev (@XDevelopers) <a href="https://twitter.com/XDevelopers/status/1727725895089324391?ref_src=twsrc%5Etfw">November 23, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  <!-- Link back to homepage -->
-  <p><a href="index.html">Back to Home</a></p>
+            <br>
+            <p>
+                <a href="index.html">Go back to the homepage (index.html)</a>
+            </p>
+        </article>
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+    <footer>
+        <p>Made by <Ntokozo> - <a href="<https://x.com/home>" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
