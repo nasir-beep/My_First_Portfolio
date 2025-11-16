@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Ntokozo Ngomane - Personal Portfolio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Ntokozo Ngomane</h1>
+        <p>Aspiring Full-Stack Developer & Data Enthusiast</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I am a passionate developer focused on creating web applications and analyzing data. I enjoy working with Python and full-stack development frameworks to build efficient, user-friendly solutions.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <article class="project">
+            <h3>Portfolio Website</h3>
+            <p>A demonstration of semantic HTML5 usage, incorporating header, navigation, sections, articles, and footer.</p>
+            <a href="https://github.com/nasir-beep" target="_blank">View Project</a>
+        </article>
+        <article class="project">
+            <h3>Data Analysis Dashboard</h3>
+            <p>An interactive dashboard built with Python and JavaScript for visualizing complex data sets.</p>
+            <a href="https://github.com/nasir-beep" target="_blank">View Project</a>
+        </article>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I thrive on solving complex problems and continuously learning new technologies.</p>
+        <h3>Key Skills</h3>
+        <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Python (Django/Flask)</li>
+            <li>Version Control (Git/GitHub)</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out via email or connect on social platforms:</p>
+        <ul>
+            <li>Email: <a href="mailto:kamaqhekeza@gmail.com">kamaqhekeza@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/ntokozo-ngomane/" target="_blank">My LinkedIn Profile</a></li>
+            <li>GitHub: <a href="https://github.com/nasir-beep" target="_blank">My GitHub Profile</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ntokozo Ngomane</p>
+    </footer>
+</body>
+</html>
